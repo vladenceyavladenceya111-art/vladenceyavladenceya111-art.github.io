@@ -26,17 +26,24 @@ header.header {
   animation: fadeInDown 1s ease forwards;
 }
 
-.header-image {
-  width: 100%;
-  max-height: 400px;
-  object-fit: cover;
-  border-bottom: 5px solid #fff;
-}
-
 .main-content {
   max-width: 1000px;
   margin: 40px auto;
   padding: 0 20px;
+}
+
+.banner {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 15px;
+  margin-bottom: 40px;
+}
+
+.banner-image {
+  width: 100%;
+  display: block;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
 
 .section {
